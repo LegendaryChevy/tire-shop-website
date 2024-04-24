@@ -1,0 +1,68 @@
+body{
+    background-color: black;
+}
+
+h1{
+    color: white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    font-family: 'New Gothic Style', sans-serif;
+    letter-spacing: 3px;
+}
+
+h3{
+    letter-spacing: 2px;
+}
+
+.div1{
+    display: flex;
+    align-items: flex;
+    justify-content: center;
+    margin: 0 260px;
+    box-sizing: content-box;
+    background-color: rgb(31, 31, 31);
+    transform: translateY(40px);
+}
+
+
+.sub_heading{
+    text-align:justify;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    font-family: 'New Gothic Style', sans-serif;
+    font-size: large;
+    font-weight: lighter;
+    font-size: 24px;
+    color: white;
+    border: 2px solid;
+    border-color: white;
+    margin: 5px;
+    padding: 5px;
+
+}
+#sub_heading1{
+    background-image: url(pictures/semi-wheel.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#sub_heading2{
+ background-image: url(pictures/mechanic-front-counter.jpeg);
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+#sub_heading3{
+    background-image: url(pictures/roadside-repair.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#img1{
+    margin: 40px 0px 0px 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 61%;
+}
