@@ -38,9 +38,19 @@ h3{
     border: 2px solid;
     border-color: white;
     margin: 5px;
-    padding: 5px;
 
 }
+
+.heading_bg{
+  background-color: transparent;
+  padding: 5px;
+}
+
+.heading_bg:hover{
+  background-color: rgba(0,0,0,0.5);
+  transition: all 0.5s;
+}
+
 #sub_heading1{
     background-image: url(pictures/semi-wheel.jpg);
     background-repeat: no-repeat;
